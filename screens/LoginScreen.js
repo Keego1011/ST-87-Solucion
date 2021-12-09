@@ -93,7 +93,7 @@ export default class LoginScreen extends Component {
             var errorMessage = error.message;
             //El correo de la cuenta del usuario usado.
             var email = error.email;
-            //El tipo de The firebase.auth.AuthCredential que fue usado.
+            //El tipo de firebase.auth.AuthCredential que fue usado.
             var credential = error.credential;
             // ...
           });
