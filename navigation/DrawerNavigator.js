@@ -11,7 +11,7 @@ const DrawerNavigator = () => {
         <Drawer.Navigator>
             <Drawer.Screen name="Inicio" component={StackNavigator} />
             <Drawer.Screen name="Perfil" component={Profile} />
-            <Drawer.Screen name="Cerrar sesión" component={Logout} />
+            <Drawer.Screen name="CerrarSesión" component={Logout} />
         </Drawer.Navigator>
     );
 };
