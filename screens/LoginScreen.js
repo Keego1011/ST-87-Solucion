@@ -59,7 +59,7 @@ export default class LoginScreen extends Component {
     //Necesitamos registrar un observador en la autenticación de Firebase para asegurar que la autrización se ha iniciado.
     var unsubscribe = firebase.auth().onAuthStateChanged(firebaseUser => {
       unsubscribe();
-      //Revisar si ya hemos iniciado sesión en Firebase con el usuario correcto..
+      //Revisar si ya hemos iniciado sesión en Firebase con el usuario correcto.
       if (!this.isUserEqual(googleUser, firebaseUser)) {
         // Crear credenciales de Firebase con el token de Google ID.
         var credential = firebase.auth.GoogleAuthProvider.credential(
