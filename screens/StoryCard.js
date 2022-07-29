@@ -225,6 +225,7 @@ const styles = StyleSheet.create({
   likeTextLight: {
     fontFamily: "Bubblegum-Sans",
     fontSize: RFValue(25),
-    marginLeft: RFValue(5)
+    marginLeft: RFValue(5),
+    color:"black"
   }
 });
